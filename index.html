@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Declaração do tipo de documento HTML e define a linguagem como português do Brasil -->
+<head>
+<meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a viewport para torná-la
+responsiva -->
+<title>Meu Site Pessoal</title> <!-- Título da página -->
+<link rel="stylesheet" href="parte2.css"> <!-- Link para o arquivo CSS externo -->
+<style>
+/* Estilo para tornar a foto redonda */
+.profile-photo {
+width: 150px; /* Define a largura da foto */
+height: 150px; /* Define a altura da foto */
+border-radius: 50%; /* Transforma a foto em um círculo */
+object-fit: cover; /* Mantém a proporção da imagem */
+}
+</style>
+</head>
+<body>
+<div class="container"> <!-- Container principal -->
+<nav class="navbar"> <!-- Navegação -->
+<ul>
+<li><a href="#formacao">Formação</a></li> <!-- Link para a seção de Formação -->
+<li><a href="#portfolio">Portfólio</a></li> <!-- Link para a seção de Portfólio -->
+<li><a href="#contato">Contato</a></li> <!-- Link para a seção de Contato -->
+</ul>
+<br>
+</nav>
+<div class="main-content"> <!-- Conteúdo principal -->
+<header> <!-- Cabeçalho -->
+<br>
+<img src="fotoperfil.jpeg" class="profile-photo"> <!-- Foto de perfil -->
+<h1> JÚLIO CESAR COELHO PAMBU DE SOUZA</h1> <!-- Nome -->
+<p>Email: juliocesarcoelho050@gmail.com  </p> <!-- Informações de contato -->
+<p>Telefone:(38)99803-0175</p>
+</header>
+<section> <!-- Seção de perfil -->
+<h2>meu Perfil</h2>
+<p>SOU NOVO NA ÁREA MAS ESTOU APRENDENDO  MUITO, JA TRENHO CONHECIMENTOS BASICO EM HTML E CSS,
+    SEI QUE SÃO LINGUAGENS DE MARCAÇÓES MAIS TODOS TEM SEU COMEÇO NÃO É MESMO? 😉. <br>
+</p>
+</section>
+<section> <!-- Seção de habilidades -->
+<h2>HABILIDADES</h2>
+<br>
+<ul>
+<li> HTML, CSS</li>
+<li>ACESSO REMOTO DE MAQUINAS (ANYDESK)</li>
+<li>CONFIGURAÇÃO DE ROTEADOR</li>
+<li>CONFIGURAÇÃO DE IMPRESSORA</li>
+</ul>
+</section>
+<BR>
+<section> <!-- Seção de experiência profissional -->
+<h2>experiência profissional</h2>
+<div class="job">
+<h5></h5> <!-- Título do cargo -->
+<h4></h4> <!-- Nome da empresa e localização -->
+<p><em></em></p> <!-- Período de trabalho -->
+</div>
+<div class="job">
+<h3></h3> <!-- Título do cargo -->
+<h4></h4> <!-- Nome da empresa e localização -->
+<p><em></em></p> <!-- Período de trabalho -->
+<ul>
+
+<li>EM BUSCA DA MINHA PRIMEIRA OPORTUNIDADE!!!</li> <!-- Responsabilidades -->
+
+</ul>
+</div>
+</section>
+<section> <!-- Seção de educação -->
+<h2>EDUCAÇÃO</h2>
+<div class="education">
+<h3>Cursando ensino médio</h3> <!-- Título do curso -->
+<h4>ESCOLA ESTUDAL PIO XII</h4> <!-- Nome da universidade -->
+<p><em>2022 - 2024</em></p> <!-- Período do curso -->
+<h3>cursando curso técnico em informática</h3> <!-- Título do curso -->
+<h4>ESCOLA ESTUDAL PIO XII</h4> <!-- Nome da escola -->
+</div>
+</section>
+</div>
+<section id="portfolio" class="section"> <!-- Seção de portfólio -->
+<h2>Portfólio</h2>
+<p>Trabalhos e Projetos.</p>
+<div class="portfolio-images"> <!-- Imagens do portfólio -->
+ 
+<img src="Screenshot_1.png" alt="Descrição da imagem 1"> <!-- Imagem do portfólio -->
+<img src="manutenGIOVAN.jpeg" alt="Descrição da imagem 2"> <!-- Imagem do portfólio -->
+<img src="roteador.jpg" alt="Descrição da imagem 3"> <!-- Imagem do portfólio -->
+</div>
+</section>
+<section id="contato" class="section"> <!-- Seção de contato -->
+<h2>Contato</h2>
+<p>Entre em contato comigo através do formulário abaixo.</p>
+<form action="https://formsubmit.co/juliocesarcoelho050@gmail.com" method="POST" autocomplete="on"> <!-- Formulário
+de contato -->
+<input type="hidden" name="_captcha" value="false">
+
+<!-- Desativa o CAPTCHA -->
+<label for="nome">Nome:</label>                                 <!-- Label para o campo de nome -->
+<input type="text" id="nome" name="nome" required><br>          <!-- Campo de texto para o nome -->
+<label for="email">Email:</label>                               <!-- Label para o campo de email -->
+<input type="email" id="email" name="email" required><br>           <!-- Campo de email -->
+<label for="assunto">Assunto:</label>                            <!-- Label para o campo de assunto -->
+<input type="text" id="assunto" name="assunto"><br>              <!-- Campo de texto para o assunto -->
+<label for="mensagem">Mensagem:</label><br>                            <!-- Label para o campo de mensagem -->
+<textarea id="mensagem" name="mensagem" required></textarea><br>         <!-- Área de texto para a mensagem -->
+<button type="submit">Enviar</button>                                                 <!-- Botão de envio -->
+</form>
+</section>
+</div>
+</body>
+</html>
+
+
